@@ -8,9 +8,15 @@ created_at: 2025-6-14
 I want to make a custom portable music player that had a general fox theme
 i would love to try and incorparate somekind of celluar so it can always be used as well as headphone and bluetooth compatiabilty. It of course needs to be able to play spotify songs and i would love if i can make it select playlist you may have! I am also looking at adding in a music player so that you can download songs directly and use that instead of spotify (if you dont have premium or yours songs just arent on spotify)
 ![first drawing](image.png)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Currently researching parts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+# June 14-16th: researching parts
+Since i Wanted celluar and a touchscreen thats what i started off looking for. I found an adafruit screen that seeemed promising but pon clsoer inspection, it was out of stock wit an unknown lead time :c
+i then swapped to a generic ILI9341 display. my celluar module had a lead time of 4-5 weeks :c and was priced super expensive as well. so i went with a Quectel EG25-G instead. My main audio codec that looked super promsiing turned out to be obeslete, which if not for [Suya](https://github.com/Suya1671) I would not have noticed :(
+And becuase of that i then spent a good blurry half hour completely redesinging my audio layout
+Now I'm off to look at data sheets before i even think abt opening kicad :c
+
+
 # Foxify Portable Music Player - BOM
 
 ### Core Processing & Connectivity
@@ -27,7 +33,7 @@ Currently researching parts
 
 ---
 
-### Audio System (REDESIGNED)
+### Audio System
 
 | **Component** | **Part Number** | **Manufacturer** | **Qty** | **Unit Cost** | **Total** | **Lead Time** | **LCSC Part #** | **Purchase Links** | **CAD Models** | **Notes** |
 |---------------|-----------------|------------------|---------|---------------|-----------|---------------|-----------------|-------------------|----------------|-----------|
