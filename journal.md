@@ -116,3 +116,6 @@ Now I'm off to look at data sheets before i even think abt opening kicad :c
 ~~~~~~~~~~~~~~
 have spent ~6 hours researching parts
 ~~~~~~~~~~~~~~
+
+# june 17th: was tired so did nothing
+next:  read some fucking datasheets aaaaa
